@@ -1,0 +1,21 @@
+{
+  "name": "04.-moexpress",
+  "version": "1.0.0",
+  "description": "MoExpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "author": "Panji Pratama",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express-paginate": "^1.0.2"
+  }
+}
